@@ -5,7 +5,7 @@ public class DividersDirectPrint {
 		
 		System.out.println("Bitte geben Sie eine ganze Zahl > 0 ein: ");
 		
-		int number = readInt();
+		int number = Integer.parseInt(System.console().readLine());
 		
 		if (number < 0) {
 			System.out.println("Eingabe ungueltig!");
